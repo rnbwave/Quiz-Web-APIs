@@ -1,5 +1,66 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  height: 10vh;
+  margin: 30px;
+}
+
+.hide {
+  display: flex;
+  justify-content: space-between;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(46, 40, 110);
+}
+
+main {
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+}
+
+section {
+  width: 40%;
+  height: 50%;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+h1, p {
+  margin-bottom: 15px;
+}
+
+.start {
+  text-align: center;
+  align-items: center;
+}
+
+.btn {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.quiz, .finish, .high {
+  display: none;
+}
+
+button {
+  background: rgb(46, 40, 110);
+  border-radius: 5px;
+  margin: 1px;
+  padding: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+footer {
+  height: 10vh;
+}
